@@ -1,0 +1,26 @@
+{
+  "name": "types-endpoint",
+  "version": "1.0.0",
+  "description": "endpoints that respond to type requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.test.js",
+    "dev": "nodemon -i js test/start_server.js"
+  },
+  "keywords": [
+    "schema",
+    "jsonschema",
+    "restify",
+    "endpoints"
+  ],
+  "author": "dweinstein",
+  "license": "MIT",
+  "devDependencies": {
+    "endpointer": "^1.1.1",
+    "nodemon": "*",
+    "restify": "^3.0.1",
+    "tape": "^4.0.0"
+  },
+  "dependencies": {
+  }
+}
